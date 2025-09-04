@@ -37,7 +37,7 @@ obj = pg.transform.scale(obj, (obj_size, obj_size))
 
 
 
-bg_image = pg.image.load('./assets/images/NTUZ FATT.htm')
+bg_image = pg.image.load('./assets/images/supermarket.jpg')
 bg_image = pg.transform.scale(bg_image, (win_width, win_height))
 
 
@@ -150,3 +150,4 @@ async def main():
     pg.quit()
 
 asyncio.run(main())
+
